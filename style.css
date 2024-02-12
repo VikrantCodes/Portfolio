@@ -15,7 +15,7 @@
   --bg-color: #081b29;
   --second-bg-color: #112e42;
   --text-color: #ededed;
-  --main-color: #00abf0;  
+  --main-color: #00abf0;
 }
 
 html {
@@ -83,7 +83,7 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background: url('home.jpg') no-repeat;
+  background: url('/Portfolio/home.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -236,7 +236,7 @@ section {
 }
 
 .home-imgHover:hover {
-  background: #081b29;
+  background: var(--bg-color);
   opacity: .8;
 }
 
